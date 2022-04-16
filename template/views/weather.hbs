@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>links}}
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid main_menu">
+        {{>header}}
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 mt-5 mb-3 mx-auto main_header_content">
+                <div class="input-group mx-auto">
+                    <input type="text" id="cityname-bar" class="form-control" placeholder="Enter your city name"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" id="sub-btn" type="button" id="button-addon2">Go</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 col-md-6  mt-5 mb-5 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 mx-auto main_header_bodes">
+                        <div class="main-head-bodes">
+                            <div class="dayname" id="daynameid">Tue</div>
+                            <div class="datename" id="datenameid">15,Mar</div>
+                        </div>
+                        <div class="col-10 col-md-12 main-body-bodes">
+                            <h5><span id="citynameid">
+                                </span>
+                                <i style="color: gainsboro;" id="msgbar">Your City Name</i>
+                                 &nbsp;
+                                <i class="bi bi-cloud-rain-heavy-fill hide-utility" id="heavyrain"></i>
+                                <i class="bi bi-brightness-high-fill hide-utility" id="sunny"></i>
+                                <i class="bi bi-cloud-lightning-rain-fill hide-utility" id="cloudy"></i>
+                                <i class="bi bi-cloud-sun-fill hide-utility" id="suncloud"></i>
+                                <i class="bi bi-cloud-haze-fill hide-utility" id="hazy"></i>
+                            </h5>
+                            <div>
+                                <h2 class="temprature-block"><span id="temp-block-id">
+                                        <i style="color: gainsboro;">0.00</i>
+                                    </span> <sup>o</sup> C</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
+</body>
+<script src="main.js"></script>
+
+</html>

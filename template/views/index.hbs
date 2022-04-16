@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Awesom Weather</title>
+
+    {{>links}}
+
+</head>
+
+<body>
+  <div class="container-fluid main_menu">
+    {{>header}}
+  </div>
+
+  <!-- main header -->
+  <div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <!-- main-header-left -->
+          <div class="col-lg-6 main_header_left">
+            <p>Welcome to Weather App</p>
+            <h2>Get The Latest <span> Weather </span> Info of Your City </h2>
+            <a href="/weather"><button>Check Now</button></a>
+          </div>
+          <!-- main-header-right -->
+          <div class="col-lg-6 main_header_right">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src = "images/img4.png" class="w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/img7.png" class="w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/img6.png" class="w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  {{>footer}}
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>

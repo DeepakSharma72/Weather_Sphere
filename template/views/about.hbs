@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Awesom Weather</title>
+    {{>links}}
+</head>
+
+<body>
+    <div class="container-fluid main_menu">
+       {{>header}}
+    </div>
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- main-header-left -->
+                    <div class="col-lg-6 main_header_right text-center">
+                        <figure>
+                            <img src="images/author.jpeg" class="img-fluid" alt="">
+                        </figure>
+                    </div>
+
+                    <!-- main-header-right -->
+                    <div class="col-lg-6 main_header_left">
+                        <p>Welcome to Weather App</p>
+                        <h2>I am <span>Btech 2nd year</span> student <br> I am <span>Full Stack Developer</span>.</h2>
+                        <a href="/"><button>About me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   {{>footer}}
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
