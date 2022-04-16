@@ -4,4 +4,10 @@
 
 <!-- ![alt text](https://github.com/[DeepakSharma72]/[Weather_Sphere]/blob/[main]/homepage.jpg?raw=true) -->
 
+## Home Page 
 !["Home page SS"](https://github.com/DeepakSharma72/Weather_Sphere/blob/main/homepage.jpg);
+
+***
+
+## Here, We are Fetching Temprature of Delhi
+!["Weather page SS"](https://github.com/DeepakSharma72/Weather_Sphere/blob/main/weatherpage.jpg);
